@@ -3,7 +3,7 @@
   if (!(document_ != null ? document_.querySelector('#MainTxt') : void 0)) {
     return null;
   }
-  if (!url.match(/^http(s)?\:\/\/www\.thefreedictionary\.com\/.+/)) {
+  if (!url.match(/^http(s)?\:\/\/(www\.)?thefreedictionary\.com\/.+/)) {
     return null;
   }
   m = title.match(/^(.+) - definition of (.+) by the Free Online Dictionary, Thesaurus and Encyclopedia\.$/);
