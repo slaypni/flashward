@@ -1,6 +1,6 @@
 (function(url, title, document_) {
   var m;
-  if (!(document_ != null ? document_.querySelector('#results') : void 0)) {
+  if (!(document_ != null ? document_.querySelector('#source-luna') : void 0)) {
     return null;
   }
   if (!url.match(/^http(s)?\:\/\/dictionary\.reference\.com\/browse\/.+/)) {
